@@ -17,3 +17,26 @@
 span {
     font-size: 40px;
 }
+
+button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+button span {
+    font-size: 16px;
+}
+
+button span::before {
+    content: "\f019";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+form {
+    height: 400px;
+    background: brown;
+}
