@@ -9,3 +9,11 @@
 .cont_fluid_green {
     background-color: #78C69D;
 }
+
+.col-12.text-center div {
+    line-height: 1;
+}
+
+span {
+    font-size: 40px;
+}
