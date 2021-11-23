@@ -2,41 +2,69 @@
   background-color: #1a2730;
 }
 
+.cont_fluid_grey {
+  background-color: #688ba9;
+}
+
 .cont_font_white {
-    color: #fff;
+  color: #fff;
 }
 
 .cont_fluid_green {
-    background-color: #78C69D;
+  background-color: #78c69d;
 }
 
-.col-12.text-center div {
-    line-height: 1;
+.text-green {
+  color: #78c69d;
 }
 
-span {
-    font-size: 40px;
+.cont_fluid_green p {
+  font-size: 13px;
+}
+
+.jobs {
+  font-size: 20px;
+}
+
+#profile {
+    width: 60%;
+}
+
+.starline {
+  font-size: 40px;
+  line-height: 1;
+}
+
+section img {
+  border-radius: 15px;
 }
 
 button {
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 0 auto;
 }
 
 button span {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 button span::before {
-    content: "\f019";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 800;
-    font-size: 16px;
-    padding-right: 4px;
+  content: "\f019";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  font-size: 16px;
+  padding-right: 4px;
 }
 
 form {
-    height: 400px;
-    background: #78C69D;
+  height: 400px;
+  background: rgb(160, 165, 115);
+}
+
+.cont_fluid_grey i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 12px;
 }
