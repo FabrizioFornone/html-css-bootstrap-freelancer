@@ -19,21 +19,10 @@
 }
 /* navbar */
 
-.navbar-collapse {
-  flex-grow: 0;
-  justify-content: flex-end;
-}
+.nav-link.active {
+  display: flex;
+  justify-content: end;
 
-.navbar button {
-  margin: 0;
-}
-
-.navbar a {
-  padding: 10 0;
-}
-
-.navbar > .container-fluid {
-  flex-direction: row-reverse;
 }
 
 /* jumbotron */
@@ -121,22 +110,4 @@ form button {
   height: 27px;
   width: 27px;
   display: inline-block;
-}
-
-/* media queries */
-
-@media (max-width: 575.98px) {
-  .navbar > .container-fluid {
-    flex-wrap: nowrap;
-  }
-
-  .navbar > .row {
-    justify-content: start;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar > .container-fluid {
-    justify-content: center;
-  }
 }
