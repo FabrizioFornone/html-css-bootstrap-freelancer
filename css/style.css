@@ -9,6 +9,22 @@
 .cont_fluid_green {
   background-color: #78c69d;
 }
+.navbar-collapse {
+  flex-grow: 0;
+  justify-content: flex-end;
+}
+
+.navbar button {
+  margin: 0;
+}
+
+.navbar a {
+  padding: 10 0;
+}
+
+.navbar > .container-fluid {
+  flex-direction: row-reverse;
+}
 
 .text-green {
   color: #78c69d;
@@ -63,23 +79,6 @@ form {
   border: 1px solid #fff;
   border-radius: 50%;
   font-size: 12px;
-}
-
-.navbar-collapse {
-  flex-grow: 0;
-  justify-content: flex-end;
-}
-
-.navbar button {
-  margin: 0;
-}
-
-.navbar a {
-  padding: 10 0;
-}
-
-.navbar > .container-fluid {
-  flex-direction: row-reverse;
 }
 
 @media (max-width: 575.98px) {
