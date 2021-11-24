@@ -44,7 +44,16 @@
 
 .starline {
   font-size: 40px;
-  line-height: 1;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.starline::before {
+  content: "\2015";
+}
+
+.starline::after {
+  content: "\2015";
 }
 
 section img {
