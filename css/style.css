@@ -1,7 +1,3 @@
-.cont_fluid_dark {
-  background-color: #1a2730;
-}
-
 .cont_fluid_grey {
   background-color: #688ba9;
 }
@@ -13,8 +9,6 @@
 .cont_fluid_green {
   background-color: #78c69d;
 }
-
-
 
 .text-green {
   color: #78c69d;
@@ -71,16 +65,32 @@ form {
   font-size: 12px;
 }
 
-@media (min-width: 576px) {
+.navbar-collapse {
+  flex-grow: 0;
+  justify-content: flex-end;
+}
+
+.navbar button {
+  margin: 0;
+}
+
+.navbar a {
+  padding: 10 0;
+}
+
+@media (max-width: 575.98px) {
   .navbar > .container-fluid {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
   }
+
+  .navbar > .row {
+    justify-content: start;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar > .container-fluid {
-    flex-direction: row-reverse;
+    justify-content: center;
   }
-  
 }
