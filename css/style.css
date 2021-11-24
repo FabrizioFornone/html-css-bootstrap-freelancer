@@ -1,14 +1,24 @@
+/* containers */
+
 .cont_fluid_grey {
   background-color: #688ba9;
-}
-
-.cont_font_white {
-  color: #fff;
 }
 
 .cont_fluid_green {
   background-color: #78c69d;
 }
+/* utilities */
+
+#text-green {
+  color: #78c69d;
+  text-decoration: none;
+}
+
+.cont_fluid_green p {
+  font-size: 13px;
+}
+/* navbar */
+
 .navbar-collapse {
   flex-grow: 0;
   justify-content: flex-end;
@@ -26,13 +36,7 @@
   flex-direction: row-reverse;
 }
 
-.text-green {
-  color: #78c69d;
-}
-
-.cont_fluid_green p {
-  font-size: 13px;
-}
+/* jumbotron */
 
 .jobs {
   font-size: 20px;
@@ -42,34 +46,39 @@
   width: 60%;
 }
 
-.starline {
-  font-size: 40px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.starline::before {
-  content: "\2015";
-}
-
-.starline::after {
-  content: "\2015";
-}
-
 section img {
   border-radius: 15px;
 }
 
-button {
-  background: transparent;
-  color: #fff;
-  border: 1px solid #fff;
+/* starline */
+
+.starline {
+  font-size: 40px;
   margin: 0 auto;
 }
 
-button span {
-  font-size: 16px;
+.starline div {
+  width: 15%;
+  height: 2px;
 }
+
+/* buttons */
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* cont_fluid_green Button */
+
+.cont_fluid_green button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
 
 .cont_fluid_green button span::before {
   content: "\f019";
@@ -79,16 +88,42 @@ button span {
   padding-right: 4px;
 }
 
-form {
-  height: 400px;
-  background: rgb(160, 165, 115);
+/* Form */
+
+form input,
+form textarea {
+  border: none;
 }
 
-.cont_fluid_grey i {
+form textarea {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+::placeholder {
+  color: #000;
+  opacity: 1;
+  font-weight: 500;
+}
+
+form button {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  background-color: #78c69d;
+}
+
+/* cont_fluid_grey */
+
+.cont_fluid_grey .custom-a {
   border: 1px solid #fff;
   border-radius: 50%;
-  font-size: 12px;
+  height: 27px;
+  width: 27px;
+  display: inline-block;
 }
+
+/* media queries */
 
 @media (max-width: 575.98px) {
   .navbar > .container-fluid {
